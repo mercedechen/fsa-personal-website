@@ -1,0 +1,93 @@
+body {
+  background-color: #FDEFEF;
+  font-family: 'Proxima Soft', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #2C4A7A;
+  margin: 0 100px;
+  line-height: 1.5;
+}
+
+/* nav bar */
+nav {
+  background-color: #5D534A;
+  text-align: center;
+  padding: 75px 0 25px 0;
+}
+
+nav a {
+  color: #F7DAD9;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  color: #F7DAD9;
+  font-weight: 600;
+}
+/* end nav bar */
+
+a {
+  color: #5D534A;
+  text-decoration: none;
+  padding: 3px;
+}
+
+a:hover {
+  font-weight: 600;
+}
+
+h2, h3 {
+  margin: 0;
+}
+
+footer {
+  background-color: #FFF;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* styling content on landing page */
+.container {
+  background-color: #FFF;
+  height: 100vh;
+  padding: 75px 100px;
+}
+
+#profile {
+  display: flex;
+  flex-direction: row;
+}
+
+#profile img {
+  width: 300px;
+  height: 100%;
+  margin-right: 55px;
+}
+
+#profile-blurb {
+  display: flex;
+  flex-direction: column;
+}
+
+#profile h1 {
+  margin: 0 0 5px 0;
+}
+
+#profile h3 {
+  margin-top: 40px;
+  font-style: italic;
+}
+/* end landing page styles */
+
+th {
+  padding: 0 100px 15px 0;
+}
+
+#may img {
+  width: 250px;
+}
+
+
