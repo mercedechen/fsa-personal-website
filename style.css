@@ -59,6 +59,7 @@ footer p {
 #profile {
   display: flex;
   flex-direction: row;
+  margin: auto;
 }
 
 #profile img {
@@ -82,12 +83,32 @@ footer p {
 }
 /* end landing page styles */
 
-th {
-  padding: 0 100px 15px 0;
+section, hr {
+  margin: 0 auto 40px auto;
 }
 
-#may img {
-  width: 250px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+table {
+  margin: auto;
+}
+
+td {
+  padding: 5px 20px;
+}
+
+td img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
 }
 
 
