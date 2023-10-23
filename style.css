@@ -11,7 +11,8 @@ body {
 nav {
   background-color: #5D534A;
   text-align: center;
-  padding: 75px 0 25px 0;
+  text-transform: lowercase;
+  padding: 0 0 25px 0;
 }
 
 nav a {
@@ -23,6 +24,12 @@ nav a {
 nav a:hover {
   color: #F7DAD9;
   font-weight: 600;
+}
+
+#logo {
+  display: block;
+  margin: 25px auto;
+  width: 150px;
 }
 /* end nav bar */
 
