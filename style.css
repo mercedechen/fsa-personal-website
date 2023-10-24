@@ -7,18 +7,28 @@ body {
   line-height: 1.5;
 }
 
-/* nav bar */
+/* nav menu */
 nav {
   background-color: #5D534A;
   text-align: center;
-  text-transform: lowercase;
-  padding: 0 0 25px 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 50px 0 20px 0;
 }
 
-nav a {
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+  margin: 25px 0 0 0;
+  padding: 0;
+}
+
+nav a, nav a:visited {
   color: #F7DAD9;
-  text-decoration: none;
-  margin: 0 15px;
+  margin: 0 20px;
 }
 
 nav a:hover {
@@ -27,16 +37,16 @@ nav a:hover {
 }
 
 #logo {
-  display: block;
-  margin: 25px auto;
+  margin: auto;
   width: 150px;
 }
-/* end nav bar */
+/* end nav menu */
 
 a {
   color: #5D534A;
   text-decoration: none;
-  padding: 3px;
+  margin: 0;
+  padding: 0;
 }
 
 a:hover {
@@ -64,7 +74,7 @@ footer p {
 .container {
   background-color: #FFF;
   height: 100vh;
-  padding: 75px 100px;
+  padding: 75px 100px 0 100px;
 }
 
 #profile {
@@ -94,11 +104,12 @@ footer p {
 }
 /* end landing page styles */
 
-section, hr {
-  margin: 0 auto 40px auto;
+section {
+  padding: 40px auto;
 }
 
 hr {
+  margin: 20px auto;
   opacity: 0.5;
 }
 
@@ -121,9 +132,9 @@ td {
 }
 
 td img {
-  display: block;
   width: 100%;
   object-fit: cover;
+  object-position: top left;
 }
 
 
