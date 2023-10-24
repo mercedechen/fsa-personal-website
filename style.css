@@ -70,7 +70,7 @@ footer {
   font-size: 12px;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 50px;
+  padding: 50px 0 20px 0;
 }
 
 footer p {
@@ -131,5 +131,4 @@ hr {
   object-fit: cover;
   object-position: top left;
 }
-
 
