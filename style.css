@@ -3,11 +3,11 @@ body {
   font-family: 'Proxima Soft', Arial, Helvetica, sans-serif;
   font-size: 15px;
   color: #2C4A7A;
-  margin: 0 100px;
+  margin: auto;
   line-height: 1.5;
 }
 
-/* Start style for nav menu */
+/* Style for nav */
 nav {
   background-color: #5D534A;
   text-align: center;
@@ -41,7 +41,7 @@ nav a:hover {
   margin: auto;
   width: 150px;
 }
-/* End style for nav menu */
+/* End style for nav */
 
 a, a:visited {
   color: #5D534A;
@@ -58,52 +58,37 @@ a:hover {
 .container {
   background-color: #FFF;
   min-height: 100vh;
-  padding: 75px 100px 0 100px;
 }
 
-h2, h3, h4 {
-  margin: 0;
-}
-
-footer {
-  background-color: #FFF;
-  font-size: 12px;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 50px 0 20px 0;
-}
-
-footer p {
-  margin: 0;
-}
-
-/* Style for landing page */
 #profile {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: auto;
+  padding: 50px 0;
+  width: 80%;
 }
 
-#profile img {
+#profile-pic {
   width: 300px;
   height: 100%;
-  margin-right: 55px;
+  margin: auto;
 }
 
 #profile-blurb {
   display: flex;
   flex-direction: column;
+  margin: 20px auto;
 }
 
-#profile h1 {
-  margin: 0 0 5px 0;
+#profile h1, #profile h2 {
+  margin: 0;
+  padding: 0;
 }
 
 #profile h3 {
   margin-top: 40px;
   font-style: italic;
 }
-/* End style for landing page */
 
 hr {
   margin: 30px auto;
@@ -130,5 +115,31 @@ hr {
   height: 300px;
   object-fit: cover;
   object-position: top left;
+}
+
+footer {
+  background-color: #FFF;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 50px 0 20px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (min-width: 800px){
+  body {
+    margin: 0 100px;
+  }
+
+  #profile {
+    flex-direction: row;
+  }
+
+  #profile-pic {
+    margin: 30px 55px;
+  }
 }
 
