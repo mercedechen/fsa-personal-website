@@ -4,9 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="./contact.css">
+  <script defer src="./javascript.js"></script>
+  <title>Mercede Chen - Contact</title>
 </head>
 <body>
-  
+  <nav>
+    <a href="index.html"><img id="logo" src="./assets/mech-logo.png" alt="logo"></a>
+    <ul>
+      <li><a href="about.html">about</a></li>
+      <li><a href="portfolio.html">portfolio</a></li>
+      <li><a href="contact.html">contact</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <h2>Get in Touch!</h2>
+    <form action="./submission.html">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="fname"/>
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lname"/>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="client"/>
+      <label for="msg">Message:</label>
+      <textarea name="message" id="msg" cols="30" rows="10"></textarea>
+      <input type="submit" class="submit_btn"/>
+    </form>
+  </div>
 </body>
 </html>

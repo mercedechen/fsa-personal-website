@@ -1,0 +1,19 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin: 10px 0 5px 0;
+}
+
+.submit_btn {
+  margin-top: 25px;
+}
+
+@media (min-width: 800px){
+  form, h2 {
+    width: 400px;
+    margin: auto;
+  }
+}
